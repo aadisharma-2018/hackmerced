@@ -8,8 +8,6 @@ y, sr = librosa.load(audio_file)
 # Constants
 CHUNK = 1024
 
-print("* processing audio")
-
 try:
     for i in range(0, len(y), CHUNK):
         # Extract audio chunk
