@@ -58,8 +58,8 @@ struct ContentView: View {
         }
 
         let headers = [
-            "X-RapidAPI-Key": "eb23d7d04bmsh26ad78ef94040d0p1dc27ejsnf0a99727737e",
-            "X-RapidAPI-Host": "shazam.p.rapidapi.com"
+            "X-RapidAPI-Key": <hidden>,
+            "X-RapidAPI-Host": <hidden>
         ]
 
         var request = URLRequest(url: url)
